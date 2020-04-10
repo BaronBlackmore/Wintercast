@@ -54,4 +54,5 @@ body{
 .center-col{
 	max-width: 800px;
 	background-color: blue;
+	margin: auto;
 }
