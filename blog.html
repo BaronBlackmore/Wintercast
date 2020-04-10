@@ -10,8 +10,7 @@ layout: default
 {% for post in site.posts %} 
 	<li> 
 
-		<img src="/images/{{ post.id | replace: '/' , '-'}}">
-		<img src="/images{{ site.post.basename }}.png">
+		<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}">
 		<br>
 		<a href="{{ post.url }}">{{ post.title }}</a> 
 		<br>
