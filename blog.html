@@ -12,7 +12,7 @@ layout: default
 
 		<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
 		<br>
-		<a href="{{ post.url }}">{{ post.title }}</a> 
+		<a href="{{ post.url }}">{{ post.id | replace: 'post.date' , '' | replace: '-' , ' ' | remove_first: " " }}</a> 
 		<br>
 		<p>{{ post.excerpt }}</p>
 	</li> 
