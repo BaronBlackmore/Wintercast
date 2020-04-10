@@ -9,12 +9,12 @@ layout: default
 <ul> 
 {% for post in site.posts %} 
 	<li> 
-
 		<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
 		<br>
 		<a href="{{ post.url }}">{{ post.id | replace: 'post.date' , '' | replace: '-' , ' ' | remove_first: " " }}</a> 
+		<p>{{post.date}}</p>
 		<br>
-		<p>{{ post.excerpt }}</p>
+		<p>{{ post.content | truncate: 10 }}</p>
 	</li> 
 {% endfor %} 
 </ul>
