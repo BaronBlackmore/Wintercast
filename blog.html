@@ -12,9 +12,9 @@ layout: default
 		<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
 		<br>
 		
-		<p>{{post.id | slice: 10, 100  | replace: '-'  , ' ' }}</p>
+		<a href="post.url">{{post.id | slice: 12, 100  | replace: '-'  , ' ' }}</a>
 		<br>
-		<p>{{ post.id }}</p>
+		<p>{{ post.content }}</p>
 	</li> 
 {% endfor %} 
 </ul>
