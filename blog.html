@@ -15,7 +15,7 @@ layout: default
 			{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}
 		</a>
 		<br>
-		<p>{{ post.content | truncate: 100}}</p>
+		<p>{{ post.content | truncate: 100 | strip_newlines }}</p>
 	</li> 
 {% endfor %} 
 </ul>
