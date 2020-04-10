@@ -1,7 +1,6 @@
 ---
 layout: post
-<!-- title:  "Welcome to Jekyll!" -->
-<!-- excerpt: summary of what is in this post, as shown on blog page -->
+title:  "Welcome to Jekyll!"
 ---
 
 # Welcome
