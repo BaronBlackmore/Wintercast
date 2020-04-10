@@ -12,7 +12,7 @@ layout: default
 		<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
 		<br>
 		
-		<p>{{post.id | replace: '2'  , '' }}</p>
+		<p>{{post.id | slice: 10, 100  | replace: '-'  , ' ' }}</p>
 		<br>
 		<p>{{ post.id }}</p>
 	</li> 
