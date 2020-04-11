@@ -2,14 +2,23 @@
 layout: default
 title: "none"
 ---
-<div class="post-head">
-<img src="/images/{{ page.id | replace: '/' , '-' | remove_first: '-' }}.png">
-<p>{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</p>
-<p>{{ page.date | date: "%-d %B %Y" }}</p>
+<div class="post-head center-col flex-all">
+	<div class="post-head-image">
+		<img src="/images/{{ page.id | replace: '/' , '-' | remove_first: '-' }}.png">
+	</div>
+	<p>{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</p>
+	<p>{{ page.date | date: "%-d %B %Y" }}</p>
 </div>
 
 <div class="post-body">
 	<div class="center-col flex-all">
 		{{ content }}
+
+
+
+		<div class="subscription-box">
+			mailchimp
+		</div>
+
 	</div>
 </div>	
