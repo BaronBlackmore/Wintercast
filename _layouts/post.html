@@ -6,8 +6,10 @@ title: "none"
 	<div class="post-head-image">
 		<img src="/images/{{ page.id | replace: '/' , '-' | remove_first: '-' }}.png">
 	</div>
-	<p>{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</p>
-	<p>{{ page.date | date: "%-d %B %Y" }}</p>
+	<div class="post-title mobile-column">
+		<h5 class="flex-left">{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
+		<small class="flex-right">{{ page.date | date: "%-d %B %Y" }}</small>
+	</div>
 </div>
 
 <div class="post-body">

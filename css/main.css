@@ -69,10 +69,12 @@ h3{
 
 h4{
 	font-size: 1.777em;
+	padding: 1em 0 0.5em 0;
 }
 
 h5{
 	font-size: 1.333em;
+	padding: 1em 0 0.5em 0;
 }
 
 p{
@@ -92,6 +94,21 @@ small, .text_small {font-size: 0.75em;}
 	flex-direction: column;
 }
 
+.flex-left{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex-right{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.row-to-col{
+	display: flex;
+	flex-direction: row;
+}
+
 .navbar{
 	display: flex;
 	justify-content:space-between;
@@ -104,32 +121,40 @@ small, .text_small {font-size: 0.75em;}
 	padding: 0 1em;
 }
 
-.flex-left{
-	display: flex;
-	justify-content: flex-start;
-}
-
-.flex-right{
-	display: flex;
-	justify-content: flex-end;
-}
 
 .post-body{
 	text-align: justify;
 }
 
+
 .post-head-image{
 	width: 100%;
-	height: 100px;
+	height: 252px;
 	overflow: hidden;
 }
 
-.post-head img{
+.post-head-image img{
+	width: 100%;
+	height: auto;
+	margin-top: -50%;
+}
+
+.image-preview{
+	width: 252px;
+	height: 155px;
+	overflow: hidden;
+}
+
+.image-preview img{
 	width: 100%;
 	height: auto;
 	margin-top: -50%;
 }
 
 @media(max-width: 660px){
+	.row-to-col{
+		flex-direction: column;
+	}
 
+	/*do a stupid hamburger*/
 }

@@ -9,18 +9,22 @@ layout: default
 	<ul> 
 	{% for post in site.posts %} 
 		<li> 
-			<a href="{{post.url}}"> 
-				<div class="post-head-image">
-					<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
+			<div class="row-to-col">
+				<div class="image-preview">
+					<a href="{{post.url}}"><img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png"></a>
 				</div>
-				<br>
-				{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}
-				<br>
-				{{ post.date | date: "%-d %B %Y" }}
-			</a>
-			<br>
-			<p>{{ post.content | truncate: 150 | strip_newlines }}</p>
-			<a href="{{post.url}}">continue reading >>>></a>
+
+				<div class="flex-all">
+					<h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
+					<small>{{ post.date | date: "%-d %B %Y" }}</small>
+					<div>
+						<p>{{ post.content | truncate: 300 | strip_newlines }}</p>
+						<a href="{{post.url}}">+</a>
+					</div>
+				</div>
+			</div>
+
+
 		</li> 
 	{% endfor %} 
 	</ul>
