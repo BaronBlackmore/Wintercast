@@ -2,10 +2,14 @@
 layout: default
 title: "none"
 ---
+<div class="post-head">
 <img src="/images/{{ page.id | replace: '/' , '-' | remove_first: '-' }}.png">
 <p>{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</p>
 <p>{{ page.date | date: "%-d %B %Y" }}</p>
-
-<div class="flex-all">
-{{ content }}
 </div>
+
+<div class="center-col">
+	<div class="flex-all">
+		{{ content }}
+	</div>
+</div>	

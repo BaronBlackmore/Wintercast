@@ -94,11 +94,17 @@ small, .text_small {font-size: 0.75em;}
 	flex-direction: column;
 }
 
-.nav{
+.navbar{
 	display: flex;
 	justify-content:space-between;
 	height: 60px;
 	width: 100vw;
+	max-width: 800px;
+	margin:auto;
+}
+
+.navbar a{
+	padding: 0 1em;
 }
 
 .flex-left{
