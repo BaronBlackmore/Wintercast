@@ -13,6 +13,8 @@ layout: default
 			<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
 			<br>
 			{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}
+			<br>
+			{{ post.date | date: "%-d %B %Y" }}
 		</a>
 		<br>
 		<p>{{ post.content | truncate: 100 | strip_newlines }}</p>
