@@ -10,7 +10,9 @@ layout: default
 	{% for post in site.posts %} 
 		<li> 
 			<a href="{{post.url}}"> 
-				<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
+				<div class="post-head-image">
+					<img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png">
+				</div>
 				<br>
 				{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}
 				<br>
@@ -18,6 +20,7 @@ layout: default
 			</a>
 			<br>
 			<p>{{ post.content | truncate: 150 | strip_newlines }}</p>
+			<a href="{{post.url}}">continue reading >>>></a>
 		</li> 
 	{% endfor %} 
 	</ul>

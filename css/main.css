@@ -127,6 +127,7 @@ small, .text_small {font-size: 0.75em;}
 .post-head img{
 	width: 100%;
 	height: auto;
+	margin-top: -50%;
 }
 
 @media(max-width: 660px){
