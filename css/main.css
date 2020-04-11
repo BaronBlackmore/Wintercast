@@ -76,16 +76,13 @@ h5{
 }
 
 p{
-	padding: 0.75em 0;
+	padding: 0.5em 0;
 }
 
 small, .text_small {font-size: 0.75em;}
 
-
-
 .center-col{
 	max-width: 800px;
-	background-color: blue;
 	margin: auto;
 }
 
@@ -97,8 +94,8 @@ small, .text_small {font-size: 0.75em;}
 .navbar{
 	display: flex;
 	justify-content:space-between;
+	align-items: center;
 	height: 60px;
-	width: 100vw;
 	max-width: 800px;
 	margin:auto;
 }
@@ -115,4 +112,17 @@ small, .text_small {font-size: 0.75em;}
 .flex-right{
 	display: flex;
 	justify-content: flex-end;
+}
+
+.post-body{
+	text-align: justify;
+}
+
+@media(max-width: 800px){
+	.center-col{
+		padding: 0 20px;
+	}
+	.navbar{
+		padding: 0 20px;
+	}
 }
