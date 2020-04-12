@@ -143,12 +143,27 @@ small, .text_small {font-size: 0.75em;}
 	margin-top: -50%;
 }
 
+.post-preview{
+	display: flex;
+	flex-direction: row;
+}
+
 .image-preview{
 	width: 252px;
 	height: 155px;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.content-preveiw{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+
+.content-preview h5{
+	padding: 0;
 }
 
 .image-preview img{
@@ -165,6 +180,10 @@ small, .text_small {font-size: 0.75em;}
 
 	.post-title small{
 		padding: 0;
+	}
+
+	.post-preview{
+		flex-direction: column;
 	}
 
 	/*do a stupid hamburger*/

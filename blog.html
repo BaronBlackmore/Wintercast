@@ -9,15 +9,15 @@ layout: default
 	<ul> 
 	{% for post in site.posts %} 
 		<li> 
-			<div class="row-to-col">
+			<div class="post-preview">
 				<div class="image-preview" style="background-image: url('/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png');">
 				</div>
 
-				<div class="flex-all">
+				<div class="content-preveiw">
 					<h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
 					<small>{{ post.date | date: "%-d %B %Y" }}</small>
-					<div>
-						<p>{{ post.content | truncate: 300 | strip_newlines }}</p>
+					<div class="text-preview">
+						<p>{{ post.content | strip_html | truncate: 200 }}</p>
 						<a href="{{post.url}}">+</a>
 					</div>
 				</div>
