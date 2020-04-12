@@ -104,11 +104,6 @@ small, .text_small {font-size: 0.75em;}
 	justify-content: flex-end;
 }
 
-.row-to-col{
-	display: flex;
-	flex-direction: row;
-}
-
 .navbar{
 	display: flex;
 	justify-content:space-between;
@@ -126,6 +121,15 @@ small, .text_small {font-size: 0.75em;}
 	text-align: justify;
 }
 
+.post-title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.post-title small{
+	padding: 1em 0 0.5em 0;
+}
 
 .post-head-image{
 	width: 100%;
@@ -142,7 +146,9 @@ small, .text_small {font-size: 0.75em;}
 .image-preview{
 	width: 252px;
 	height: 155px;
-	overflow: hidden;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .image-preview img{
@@ -152,8 +158,13 @@ small, .text_small {font-size: 0.75em;}
 }
 
 @media(max-width: 660px){
-	.row-to-col{
+
+	.post-title{
 		flex-direction: column;
+	}
+
+	.post-title small{
+		padding: 0;
 	}
 
 	/*do a stupid hamburger*/

@@ -10,8 +10,7 @@ layout: default
 	{% for post in site.posts %} 
 		<li> 
 			<div class="row-to-col">
-				<div class="image-preview">
-					<a href="{{post.url}}"><img src="/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png"></a>
+				<div class="image-preview" style="background-image: url('/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png');">
 				</div>
 
 				<div class="flex-all">
