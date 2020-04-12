@@ -304,8 +304,14 @@ a:visited{
 		display: none !important;
 	}
 
-	.image-preview{
-		flex: 0 0 252px;
+	.image-preview, .post-head-image{
+		flex: 0 0 156px;
 	}
 
 }
+
+/*@media(max-width: 660px){
+		.image-preview{
+		flex: 0 0 252px;
+	}
+}*/
