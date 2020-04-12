@@ -3,7 +3,7 @@
 		<a href="https://wintersolacegame.com" style="padding-left: 0">Winter Solace</a>
 	</div>
 	<div class="flex-right">
-		<div class="hamburger-icon" onclick="hamburgerSwap(this)">
+		<div class="hamburger-icon" onclick="hamburgerSwap(this);openNav()">
 			 	<div class="bar1"></div>
  				<div class="bar2"></div>
   				<div class="bar3"></div>
@@ -24,13 +24,12 @@
 <script type="text/javascript">
 	function hamburgerSwap(x) {
 		x.classList.toggle("change");
-		
-		var y = document.getElementById("mobile-nav");
-		if(y.style.top === 0){
-			y.style.top = 50;
-		}else{
-			y.style.top = 0
-		}
+	}
+
+	function openNav() {
+		var x = document.getElementById("mobile-nav");
+		x.classList.toggle("offscreen");
+
 	}
 
 </script>
