@@ -3,12 +3,11 @@ layout: default
 title: "none"
 ---
 <div class="post-head center-col flex-all">
-	<div class="post-head-image">
-		<img src="/images/{{ page.id | replace: '/' , '-' | remove_first: '-' }}.png">
+	<div class="post-head-image" style="background-image: url('/images/{{ page.id | replace: '/' , '-' | remove_first: '-' }}.png');">
 	</div>
 	<div class="post-title">
 		<h5 class="flex-left">{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
-		<small class="flex-right" style="align-self: flex-end;">{{ page.date | date: "%-d %B %Y" }}</small>
+		<small class="flex-right">{{ page.date | date: "%-d %B %Y" }}</small>
 	</div>
 </div>
 
