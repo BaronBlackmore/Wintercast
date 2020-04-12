@@ -244,6 +244,7 @@ a:visited{
 	height: 100%;
 	transition: 0.5s;
 	z-index: 2;
+	display: none;
 }
 
 #mobile-nav a{
@@ -295,6 +296,9 @@ a:visited{
 
 	.no-mobile a{
 		display: none !important;
+	}
+	.mobile-nav-shade{
+		display: inline-block;
 	}
 
 }
