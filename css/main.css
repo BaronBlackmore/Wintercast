@@ -257,6 +257,7 @@ a:visited{
 }
 
 .visible{
+	display: inherit;
 	background-color: #00000042 !important;
 }
 
@@ -297,8 +298,6 @@ a:visited{
 	.no-mobile a{
 		display: none !important;
 	}
-	.mobile-nav-shade{
-		display: inline-block;
-	}
+
 
 }
