@@ -300,5 +300,8 @@ a:visited{
 		display: none !important;
 	}
 
+	.image-preview{
+		flex: 0 0 252px;
+	}
 
 }
