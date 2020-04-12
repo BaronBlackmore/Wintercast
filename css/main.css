@@ -294,7 +294,7 @@ a:visited{
 
 
 	.no-mobile a{
-		
+		display: none !important;
 	}
 
 }
