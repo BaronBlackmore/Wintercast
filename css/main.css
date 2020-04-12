@@ -224,13 +224,13 @@ a:visited{
 #mobile-nav{
 	width: 100%;
 	position: absolute;
-	top: 50px;
+	top: 100px;
 	height: 50px;
 	background-color: yellow;
 }
 
 .offscreen{
-	top:50 !important;
+	top:50px !important;
 }
 
 @media(max-width: 660px){
