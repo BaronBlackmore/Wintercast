@@ -257,8 +257,9 @@ a:visited{
 }
 
 .visible{
-	display: inherit;
+	display: inherit !important;
 	background-color: #00000042 !important;
+	transition: 0.5s;
 }
 
 .social-images{
