@@ -83,6 +83,15 @@ p{
 
 small, .text_small {font-size: 0.75em;}
 
+a{
+	color: #d83f41;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #9d3259;
+}
+
 .center-col{
 	max-width: 660px;
 	margin: auto;
@@ -140,8 +149,8 @@ small, .text_small {font-size: 0.75em;}
 }
 
 .post-head-image{
-	width: 100%;
-	height: 68%;
+	/*width: 100%;*/
+	/*height: 68%;*/
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -154,18 +163,28 @@ small, .text_small {font-size: 0.75em;}
 }
 
 .image-preview{
-	width: 252px;
-	height: 155px;
+	/*width: 252px;*/
+	/*height: 155px;*/
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	flex: 0 0 252px;
 }
 
+.text-preview{
+	position: relative;
+}
+
 .content-preview{
 	display: flex;
 	flex-direction: column;
 	padding-left: 10px;
+}
+
+.triangle-link{
+	position: absolute;
+	bottom: 8px;
+	right:0;
 }
 
 .content-preview h5{
@@ -191,6 +210,14 @@ small, .text_small {font-size: 0.75em;}
 
 	.post-preview{
 		flex-direction: column;
+	}
+
+	.content-preview{
+		padding: 0;
+	}
+
+	.content-preview h5{
+		padding: 1em 0 0.5em 0;
 	}
 
 	/*do a stupid hamburger*/

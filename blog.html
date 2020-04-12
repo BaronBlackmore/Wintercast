@@ -18,7 +18,7 @@ layout: default
 					<small>{{ post.date | date: "%-d %B %Y" }}</small>
 					<div class="text-preview">
 						<p>{{ post.content | strip_html | truncate: 200 }}</p>
-						<a href="{{post.url}}">►</a>
+						<a class="triangle-link" href="{{post.url}}">►</a>
 					</div>
 				</div>
 			</div>
