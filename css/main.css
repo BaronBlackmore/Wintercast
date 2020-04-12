@@ -154,6 +154,10 @@ a:visited{
 	flex: 0 0 252px;
 }
 
+.post-list li{
+	padding-bottom: 3em;
+}
+
 .post-preview{
 	display: flex;
 	flex-direction: row;
