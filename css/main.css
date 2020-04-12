@@ -144,13 +144,10 @@ a:visited{
 
 .post-head-image{
 	width: 100%;
-	/*height: 252px;*/
 	overflow: hidden;
 }
 
 .post-head-image{
-	/*width: 100%;*/
-	/*height: 68%;*/
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -197,7 +194,45 @@ a:visited{
 	margin-top: -50%;
 }
 
-@media(max-width: 560px){
+.hamburger-icon{
+	display: flex;
+ 	flex-direction:column;
+ 	cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#mobile-nav{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	height: 50px;
+	background-color: yellow;
+}
+
+@media(max-width: 660px){
+
+	.hamburger-icon{
+		display: flex;
+	}
 
 	.post-title{
 		flex-direction: column;
