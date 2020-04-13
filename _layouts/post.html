@@ -21,5 +21,57 @@ title: "none"
 			mailchimp
 		</div>
 
+		<div class="neighbour-posts">
+
+			<div class="flex-left">
+			
+			    {% if page.previous.url %}
+			   
+			<div class="post-preview" style="flex-direction: column;">
+				<p> Previous Post</p>
+				<div class="image-preview" style="background-image: url('/images/{{ page.previous.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+				</div>
+
+				<div class="content-preview">
+					<a href="{{page.previous.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+					<small>{{ post.date | date: "%-d %B %Y" }}</small>
+					<div class="text-preview">
+						<p>{{ post.content | strip_html | truncate: 180 }}</p>
+						<a class="triangle-link" href="{{page.previous.url}}">►►►</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+    			{% endif %}
+				
+			</div>
+			<div class="flex-right">
+
+			    {% if page.next.url %}
+    			
+			<div class="post-preview" style="flex-direction: column;">
+				<p> Next Post</p>
+				<div class="image-preview" style="background-image: url('/images/{{ page.next.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+				</div>
+
+				<div class="content-preview">
+					<a href="{{page.next.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+					<small>{{ post.date | date: "%-d %B %Y" }}</small>
+					<div class="text-preview">
+						<p>{{ post.content | strip_html | truncate: 180 }}</p>
+						<a class="triangle-link" href="{{page.next.url}}">►►►</a>
+					</div>
+				</div>
+			</div>
+
+    			{% endif %}
+
+			</div>
+
+		</div>
+
 	</div>
 </div>	

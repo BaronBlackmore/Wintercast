@@ -272,6 +272,23 @@ a:visited{
 	justify-content: center;
 }
 
+
+.neighbour-posts{
+	display: flex;
+	justify-content: space-between;
+}
+
+.neighbour-posts .image-preview{
+	flex: 0 0 156px;
+}
+
+.neighbour-posts .content-preview{
+	padding-left: 0;
+}
+
+.neighbour-posts h5{
+	padding: 1em 0 0.5em 0;
+}
 @media(max-width: 660px){
 
 	.hamburger-icon{
