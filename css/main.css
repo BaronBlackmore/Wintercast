@@ -132,6 +132,10 @@ a:visited{
 	text-align: justify;
 }
 
+.main{
+	padding:3em 0;
+}
+
 .post-title{
 	display: flex;
 	flex-direction: row;
