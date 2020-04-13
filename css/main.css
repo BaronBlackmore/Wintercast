@@ -138,6 +138,10 @@ a:visited{
 	min-height: 60px;
 }
 
+.post-text{
+	padding-bottom: 3em;
+}
+
 .post-title small{
 	padding: 1.5em 0 1em 0;
 }
@@ -286,8 +290,13 @@ a:visited{
 	padding-left: 0;
 }
 
+.neighbour-posts .post-preview{
+	padding:5px;
+}
+
+
 .neighbour-posts h5{
-	padding: 1em 0 0.5em 0;
+	padding: 0.5em 0 0.5em 0;
 }
 @media(max-width: 660px){
 
