@@ -8,7 +8,10 @@ layout: default
 	{% for post in site.posts %} 
 		<li> 
 			<div class="post-preview">
-				<div class="image-preview" style="background-image: url('/images/{{ post.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+				<div class="image-preview" style="background-image: url('/images/{{ post.id | replace: '/' , '-' | replace: ':' , '&#58' | remove_first: '-' }}.png');">
+				</div>
+
+				<div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' }}.png');">
 				</div>
 
 				<div class="content-preview">
