@@ -55,13 +55,6 @@ body{
 	color: #292929;
 	min-height: 100vh;
 	background-color: black;
-	background-image: url('/images/snow3.png'), url('/images/snow2.png'), url('/images/snow1.png');
-	-webkit-animation: snow 20s linear infinite;
-
-	-webkit-animation: snow 20s linear infinite;
- 	-moz-animation: snow 20s linear infinite;
- 	-ms-animation: snow 20s linear infinite;
- 	animation: snow 20s linear infinite;
 }
 
 /*snow keyframes*/
@@ -127,6 +120,21 @@ a{
 
 a:visited{
 	color: #9d3259;
+}
+
+#whole-page{
+	min-width: 100vh;
+	min-height: 100vh;
+}
+
+.snow{
+	background-image: url('/images/snow3.png'), url('/images/snow2.png'), url('/images/snow1.png');
+	-webkit-animation: snow 20s linear infinite;
+
+	-webkit-animation: snow 20s linear infinite;
+ 	-moz-animation: snow 20s linear infinite;
+ 	-ms-animation: snow 20s linear infinite;
+ 	animation: snow 20s linear infinite;
 }
 
 

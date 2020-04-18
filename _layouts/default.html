@@ -2,15 +2,22 @@
 <html lang="en">
 
   {% include head.html %}
-  {% include nav.html %}
+
 
   <body>
-    <div id="main">
-      {{ content }}
-    </div>
+ 	<div id="whole-page" class="snow">
+
+  	  {% include nav.html %}
+ 
+	    <div id="main">
+	      {{ content }}
+	    </div>
+
+      {% include foot.html %}
+
+	</div>
   </body>
 
-  {% include foot.html %}
 
 </html>
 
