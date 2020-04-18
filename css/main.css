@@ -248,7 +248,7 @@ a:visited{
 .triangle-link{
 	position: absolute;
 	background-color: white;
-	bottom: 0px;
+	bottom: 8px;
 	right:0;
 }
 
