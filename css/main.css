@@ -135,6 +135,9 @@ a:visited{
  	-moz-animation: snow 20s linear infinite;
  	-ms-animation: snow 20s linear infinite;
  	animation: snow 20s linear infinite;
+
+ 	  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 }
 
 
