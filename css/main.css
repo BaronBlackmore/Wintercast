@@ -159,6 +159,7 @@ a:visited{
 	height: 60px;
 	margin:auto;
 	background-color: black;
+	padding:0 20px;
 }
 
 .navbar a{
@@ -184,7 +185,7 @@ a:visited{
 	justify-content: space-between;
 	align-items: center;
 	min-height: 60px;
-	padding: 2em 3em;
+	padding: 1em 3em;
 }
 
 .post-text{
@@ -192,7 +193,7 @@ a:visited{
 }
 
 .post-title small{
-	padding: 1.5em 0 1em 0;
+	padding: 1.5em 0 1em 1em;
 	min-width: 120px;
 }
 
@@ -242,6 +243,7 @@ a:visited{
 
 .triangle-link{
 	position: absolute;
+	background-color: white;
 	bottom: 8px;
 	right:0;
 }
@@ -330,6 +332,9 @@ a:visited{
 	justify-content: center;
 }
 
+.subscription-box{
+	padding: 1em 1em;
+}
 
 .neighbour-posts{
 	display: flex;
@@ -347,7 +352,6 @@ a:visited{
 .neighbour-posts .post-preview{
 	padding: 10px;
 }
-
 
 .neighbour-posts h5{
 	padding: 0.5em 0 0.5em 0;
@@ -367,6 +371,11 @@ a:visited{
 	.post-title{
 		flex-direction: column;
 		align-items: flex-start;
+		padding: 2em 1em;
+	}
+
+	.post-text{
+		padding: 0 1em;
 	}
 
 	.post-title small{

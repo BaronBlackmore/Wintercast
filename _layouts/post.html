@@ -37,7 +37,7 @@ title: "none"
 					<a href="{{page.previous.url}}"><h5>{{page.previous.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
 					<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
 					<div class="text-preview">
-						<p>{{ page.previous.content | strip_html | truncate: 180 }}</p>
+						<p>{{ page.previous.content | strip_html | truncate: 160 }}</p>
 						<a class="triangle-link" href="{{page.previous.url}}">►►►</a>
 					</div>
 				</div>
@@ -62,7 +62,7 @@ title: "none"
 					<a href="{{page.next.url}}"><h5>{{page.next.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
 					<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
 					<div class="text-preview">
-						<p>{{ page.next.content | strip_html | truncate: 180 }}</p>
+						<p>{{ page.next.content | strip_html | truncate: 160 }}</p>
 						<a class="triangle-link" href="{{page.next.url}}">►►►</a>
 					</div>
 				</div>
