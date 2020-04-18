@@ -11,7 +11,7 @@ layout: default
 				<div class="image-preview" style="background-image: url('/images/{{ post.id | replace: '/' , '-' | replace: ':' , '&#58' | remove_first: '-' }}.png');">
 				</div>
 
-				<div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove '.html'}}.png');">
+				<div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 				</div>
 
 				<div class="content-preview">
