@@ -30,7 +30,7 @@ title: "none"
 	   
 		<div class="post-preview" style="flex-direction: column;">
 			<a href="{{page.previous.url}}"><h5>◀◀◀ Previous Post</h5></a>
-			<div class="image-preview" style="background-image: url('/images/{{ page.previous.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+			<div class="image-preview" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div>
 
 			<div class="content-preview">
@@ -52,7 +52,7 @@ title: "none"
 		
 		<div class="post-preview" style="flex-direction: column;">
 			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ►►►</h5></a>
-			<div class="image-preview" style="background-image: url('/images/{{ page.next.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+			<div class="image-preview" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div>
 
 			<div class="content-preview">
