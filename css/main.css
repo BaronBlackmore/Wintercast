@@ -54,6 +54,7 @@ body{
 	font-size: 1em;
 	color: #292929;
 	min-height: 100vh;
+	background-color: black;
 }
 
 h1{
@@ -94,10 +95,12 @@ a:visited{
 	color: #9d3259;
 }
 
+
 .center-col{
 	max-width: 660px;
 	margin: auto;
 	padding:0 20px;
+	background-color: white;
 }
 
 .flex-all{
@@ -121,19 +124,23 @@ a:visited{
 	align-items: center;
 	height: 60px;
 	margin:auto;
+	background-color: black;
 }
 
 .navbar a{
 	padding: 0 1em;
 }
 
+.navbar body{
+	color: white;
+}
 
 .post-body{
 	text-align: justify;
 }
 
-.main{
-	padding:3em 0;
+#main{
+	min-height: 100vh;s
 }
 
 .post-title{
@@ -163,6 +170,10 @@ a:visited{
 	background-size: cover;
 	background-repeat: no-repeat;
 	flex: 0 0 252px;
+}
+
+.post-list{
+	padding-top: 2em;
 }
 
 .post-list li{
@@ -298,7 +309,7 @@ a:visited{
 }
 
 .neighbour-posts .post-preview{
-	padding:5px;
+	padding: 10px;
 }
 
 
