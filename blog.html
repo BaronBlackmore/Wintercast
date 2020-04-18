@@ -12,6 +12,8 @@ layout: default
 				<div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 				</div>
 
+				<p>{{post.url}}</p>
+
 				<div class="content-preview">
 					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
 					<small>{{ post.date | date: "%-d %B %Y" }}</small>
