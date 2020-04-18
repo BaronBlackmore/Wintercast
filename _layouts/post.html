@@ -11,68 +11,62 @@ title: "none"
 	</div>
 </div>
 
-<div class="post-body">
-	<div class="center-col flex-all">
-		<div class="post-text">
-		{{ content }}
+
+<div class="post-text center-col flex-all">
+{{ content }}
+</div>
+
+
+<div class="subscription-box center-col flex-all">
+	mailchimp
+</div>
+
+<div class="neighbour-posts center-col flex-all">
+
+	<div class="flex-left">
+	
+	    {% if page.previous.url %}
+	   
+		<div class="post-preview" style="flex-direction: column;">
+			<a href="{{page.previous.url}}"><h5>◀◀◀ Previous Post</h5></a>
+			<div class="image-preview" style="background-image: url('/images/{{ page.previous.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+			</div>
+
+			<div class="content-preview">
+				<a href="{{page.previous.url}}"><h5>{{page.previous.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
+				<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
+				<div class="text-preview">
+					<p>{{ page.previous.content | strip_html | truncate: 160 }}</p>
+					<a class="triangle-link" href="{{page.previous.url}}">►►►</a>
+				</div>
+			</div>
 		</div>
 
+		{% endif %}
+		
+	</div>
+	<div class="flex-right">
 
-		<div class="subscription-box">
-			mailchimp
+	    {% if page.next.url %}
+		
+		<div class="post-preview" style="flex-direction: column;">
+			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ►►►</h5></a>
+			<div class="image-preview" style="background-image: url('/images/{{ page.next.id | replace: '/' , '-' | remove_first: '-' }}.png');">
+			</div>
+
+			<div class="content-preview">
+				<a href="{{page.next.url}}"><h5>{{page.next.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
+				<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
+				<div class="text-preview">
+					<p>{{ page.next.content | strip_html | truncate: 160 }}</p>
+					<a class="triangle-link" href="{{page.next.url}}">►►►</a>
+				</div>
+			</div>
 		</div>
 
-		<div class="neighbour-posts">
-
-			<div class="flex-left">
-			
-			    {% if page.previous.url %}
-			   
-			<div class="post-preview" style="flex-direction: column;">
-				<a href="{{page.previous.url}}"><h5>◀◀◀ Previous Post</h5></a>
-				<div class="image-preview" style="background-image: url('/images/{{ page.previous.id | replace: '/' , '-' | remove_first: '-' }}.png');">
-				</div>
-
-				<div class="content-preview">
-					<a href="{{page.previous.url}}"><h5>{{page.previous.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
-					<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
-					<div class="text-preview">
-						<p>{{ page.previous.content | strip_html | truncate: 160 }}</p>
-						<a class="triangle-link" href="{{page.previous.url}}">►►►</a>
-					</div>
-				</div>
-			</div>
-
-
-
-
-    			{% endif %}
-				
-			</div>
-			<div class="flex-right">
-
-			    {% if page.next.url %}
-    			
-			<div class="post-preview" style="flex-direction: column;">
-				<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ►►►</h5></a>
-				<div class="image-preview" style="background-image: url('/images/{{ page.next.id | replace: '/' , '-' | remove_first: '-' }}.png');">
-				</div>
-
-				<div class="content-preview">
-					<a href="{{page.next.url}}"><h5>{{page.next.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
-					<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
-					<div class="text-preview">
-						<p>{{ page.next.content | strip_html | truncate: 160 }}</p>
-						<a class="triangle-link" href="{{page.next.url}}">►►►</a>
-					</div>
-				</div>
-			</div>
-
-    			{% endif %}
-
-			</div>
-
-		</div>
+		{% endif %}
 
 	</div>
-</div>	
+
+</div>
+
