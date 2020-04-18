@@ -53,7 +53,7 @@ body{
 	line-height: 1.5em;
 	font-size: 1em;
 	color: #292929;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	background-color: black;
 }
 
@@ -123,7 +123,7 @@ a:visited{
 }
 
 #whole-page{
-	min-width: 100vh;
+	/*min-width: 100vh;*/
 	min-height: 100vh;
 }
 
@@ -206,7 +206,7 @@ a:visited{
 }
 
 .post-text{
-	/*padding: 0 3em;*/
+	padding-bottom: 3em;
 }
 
 .post-text p{
@@ -364,6 +364,7 @@ a:visited{
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	margin-top: 5px;
 }
 
 .neighbour-posts .image-preview{
@@ -400,8 +401,13 @@ a:visited{
 		padding: 1em 1em;
 	}
 
-	.post-text{
-		padding: 0 1em;
+	.post-text p{
+		padding: 0.5em 1em;
+	}
+
+	.post-text img{
+		width: 100%;
+		padding: 2em 0;
 	}
 
 	.post-title small{
