@@ -384,8 +384,8 @@ a:visited{
 
 .foot{
 	padding:2em 0;
+	display: flex;
 	justify-content:center;
-	/*background-color: lightgrey;*/
 }
 
 @media(max-width: 660px){
