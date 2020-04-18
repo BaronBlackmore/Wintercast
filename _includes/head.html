@@ -7,7 +7,7 @@
 	<title>
   		Winter Solace
   		{% if page.title %}
-  		{{ page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | prepend: " - " }}
+  		{{ page.path | remove: '.html' }}
   		{% endif %}
 	</title>
 
