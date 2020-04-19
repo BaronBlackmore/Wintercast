@@ -54,7 +54,7 @@ body{
 	font-size: 1em;
 	color: #292929;
 	/*min-height: 100vh;*/
-	background-color: black;
+	background-color: grey;
 }
 
 /*snow keyframes*/
@@ -151,12 +151,20 @@ a:visited{
 	top: 0;
 	width: 100%;
 	height: 900px;
-	background-image: url('/images/hero-front.png');
-	background-repeat: no-repeat;
-	background-position: center;
+	display: flex;
 	z-index: -5;
 }
 
+.hero-front-image{
+	background-image: url('/images/hero-front.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	flex:0 0 900px;
+}
+
+.hero-side{
+	flex: 1 1;
+}
 
 .center-col{
 	max-width: 720px;
