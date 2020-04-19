@@ -210,7 +210,7 @@ a:visited{
 
 .navbar a{
 	padding: 0 1em;
-	color: white;
+	/*color: white;*/
 }
 
 .navbar body{
@@ -323,13 +323,13 @@ a:visited{
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 3px;
-  background-color: white;
+  background-color: #d83f41;
   margin: 4px 0;
   transition: 0.2s;
 }
 
 .change{
-	  background-color: black;
+	  /*background-color: black;*/
 }
 
 .change .bar1 {
@@ -372,7 +372,7 @@ a:visited{
 
 #mobile-nav a{
 	padding: 1em;
-	color: black;
+	/*color: black;*/
 }
 
 
