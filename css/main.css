@@ -183,6 +183,16 @@ a:visited{
 	background-color: white;
 }
 
+.frontpage-content{
+	margin-top:720px;
+	background-color: black;
+	padding: 0 20px;
+}
+
+.frontpage-content img{
+	width: 100%;
+}
+
 .flex-all{
 	display: flex;
 	flex-direction: column;
@@ -496,6 +506,10 @@ a:visited{
 
 	.hero-back-image{
 		flex:0 1 750px;
+	}
+
+	.frontpage-content{
+		margin-top:400px;
 	}
 
 }
