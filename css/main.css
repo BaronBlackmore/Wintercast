@@ -54,7 +54,7 @@ body{
 	font-size: 1em;
 	color: #292929;
 	/*min-height: 100vh;*/
-	background-color: grey;
+	background-color: black;
 }
 
 /*snow keyframes*/
@@ -129,7 +129,7 @@ a:visited{
 
 .snow{
 	width: 100%;
-	height: 100%;
+	height: 900px;
 	position: absolute;
 	top: 0;
 	z-index: -10;
@@ -159,11 +159,20 @@ a:visited{
 	background-image: url('/images/hero-front.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	flex:0 0 900px;
+	flex:0 1 900px;
+}
+
+.hero-back-image{
+	background-image: url('/images/hero-front.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: grey;
+	flex:0 1 900px;
 }
 
 .hero-side{
 	flex: 1 1;
+	background-color: black;
 }
 
 .center-col{
