@@ -2,6 +2,14 @@
 layout: default
 title: "none"
 ---
+<head>
+	<meta description="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}. {{content | truncatewords: 50 | strip_newlines  | capitalize }}">
+	<!-- facebook -->
+	<meta property="og:type" content="article" />
+	<meta property="og:title"              content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}" />
+	<meta property="og:description"        content="{{content | truncatewords: 50 | strip_newlines  | capitalize }}" />
+</head>
+
 <div class="post-head center-col flex-all">
 	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 	</div>

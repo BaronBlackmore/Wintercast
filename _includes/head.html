@@ -2,12 +2,20 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta description="Winter Solace is an action-adventure rpg where you are a vampire wizard, trying to make friends during a civil war.">
+	<meta keywords="Indie, RPG, Game, Game Design, Pixel Art">
+	<meta author="Sam Ballard">
 
- 
 	<title>	{{page.title}} 	</title>
-
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 	<link rel="stylesheet" href=/css/main.css>
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+	<!-- facebook tags -->
+	<meta property="og:url"                content="https://wintersolacegame.com{{ page.url }}" />
+	
+	<meta property="og:title"              content="Winter Solace" />
+	<meta property="og:description"        content="Winter Solace is an action-adventure rpg where you are a vampire wizard, trying to make friends during a civil war." />
+	<meta property="og:image"              content="http://www.wintersolacegame.com/images/social.png" />
+
 </head>
