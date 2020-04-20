@@ -55,6 +55,7 @@ body{
 	color: #292929;
 	/*min-height: 100vh;*/
 	background-color: black;
+	scroll-behavior: smooth;
 }
 
 /*snow keyframes*/
