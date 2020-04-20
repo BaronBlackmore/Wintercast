@@ -3,7 +3,7 @@ layout: default
 title: "none"
 ---
 <head>
-	<meta description="{{content | truncate: 190 | strip_newlines | capitalize }}">
+	<meta description="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
 	<!-- facebook -->
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}" />
@@ -43,7 +43,7 @@ title: "none"
 	   
 		<div class="post-preview" style="flex-direction: column;">
 			<a href="{{page.previous.url}}"><h5>◀◀◀ Previous Post</h5></a>
-			<div class="image-preview" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+			<div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div>
 
 			<div class="content-preview">
@@ -65,7 +65,7 @@ title: "none"
 		
 		<div class="post-preview" style="flex-direction: column;">
 			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ►►►</h5></a>
-			<div class="image-preview" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+			<div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div>
 
 			<div class="content-preview">
