@@ -434,10 +434,15 @@ a:visited{
 }
 
 .foot{
-	padding:2em 0;
+	padding:6em 0;
 	display: flex;
 	justify-content:center;
 }
+
+	.frontpage-content h5{
+		color: white;
+		padding: 3em 0 8em 0;
+	}
 
 @media(max-width: 660px){
 
@@ -511,6 +516,8 @@ a:visited{
 	.frontpage-content{
 		margin-top:400px;
 	}
+
+
 
 }
 
