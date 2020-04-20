@@ -46,6 +46,9 @@ table {
 
 /*---------------------------end reset------------------------*/
 
+html{
+	scroll-behavior: smooth;
+}
 
 body{
 	font-family: Tahoma, sans-serif;
@@ -55,7 +58,6 @@ body{
 	color: #292929;
 	/*min-height: 100vh;*/
 	background-color: black;
-	scroll-behavior: smooth;
 }
 
 /*snow keyframes*/
