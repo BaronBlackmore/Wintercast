@@ -114,7 +114,10 @@ p{
 	padding: 0.5em 0;
 }
 
-small, .text_small {font-size: 0.75em;}
+small, .text_small {
+	font-size: 0.75em;
+	color: #8f96ae;
+}
 
 a{
 	color: #d83f41;
@@ -287,7 +290,7 @@ a:visited{
 }
 
 .post-list{
-	/*padding-top: 2em;*/
+	padding-bottom: 2em;
 }
 
 .post-list li{
@@ -312,6 +315,10 @@ a:visited{
 	position: relative;
 }
 
+.text-preview p{
+	padding: 0 0 0.5em 0;
+}
+
 .content-preview{
 	display: flex;
 	flex-direction: column;
@@ -326,7 +333,7 @@ a:visited{
 }
 
 .content-preview h5{
-	padding: 0;
+	padding: 0 0 0.4em 0;
 }
 
 .image-preview img{
@@ -438,11 +445,11 @@ a:visited{
 }
 
 .neighbour-posts .post-preview{
-	padding: 10px;
+	padding: 1em;
 }
 
 .neighbour-posts h5{
-	padding: 0.5em 0 0.5em 0;
+	padding: 0.5em 0 0.3em 0;
 }
 
 .foot{
