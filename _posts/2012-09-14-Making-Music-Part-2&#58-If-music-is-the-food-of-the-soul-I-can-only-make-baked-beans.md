@@ -14,8 +14,8 @@ You know what actually would have helped? Learning an instrument well enough to 
 
 After 15 years of finding and absorbing as much theory as I could without proper teaching; watching song breakdowns and learning fancy magic words, I have figured out what I should have done from the start. So let me sum up everything I found useful without getting into the nitty gritty:
 
-*All the music theory I learned was not useful as a starting point for making music. It became useful much later as a diagnostic tool, though could still have been replaced with experimentation.
-*Instead, if you play your instrument a lot by learning a lot of different songs you will begin to recognise patterns. A circle of fifths diagram can tell you how chords could be arranged, but only playing will make it intuitive.
-*Also, by playing a lot, you’ll find particular sounds you enjoy to make on your instrument. When you go to write, you will draw from what you know and these sounds will be not only your building blocks, but your signature.
-*When playing or writing music, repetition is your friend. You may get bored playing the same thing over and over, but the listener does not. In fact, it gives them an idea of what comes next. Like with any art, setting expectations for the audience allows them to become invested, whereas inconsistencies are jarring.
-*Restrictions on your practice will serve to both prevent becoming overwhelmed, and format your art to be more consistent. Try writing using only 4 chords or only a few notes, etc.
+* All the music theory I learned was not useful as a starting point for making music. It became useful much later as a diagnostic tool, though could still have been replaced with experimentation.
+* Instead, if you play your instrument a lot by learning a lot of different songs you will begin to recognise patterns. A circle of fifths diagram can tell you how chords could be arranged, but only playing will make it intuitive.
+* Also, by playing a lot, you’ll find particular sounds you enjoy to make on your instrument. When you go to write, you will draw from what you know and these sounds will be not only your building blocks, but your signature.
+* When playing or writing music, repetition is your friend. You may get bored playing the same thing over and over, but the listener does not. In fact, it gives them an idea of what comes next. Like with any art, setting expectations for the audience allows them to become invested, whereas inconsistencies are jarring.
+* Restrictions on your practice will serve to both prevent becoming overwhelmed, and format your art to be more consistent. Try writing using only 4 chords or only a few notes, etc.
