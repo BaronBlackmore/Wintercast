@@ -261,7 +261,7 @@ a:visited{
 
 .post-text ul{
 	padding:0.5em 3em 0.5em 4em;
-	list-style:circle;
+	list-style:disclosure-closed;
 }
 
 .post-text li{
