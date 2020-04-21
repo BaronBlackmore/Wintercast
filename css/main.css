@@ -51,10 +51,10 @@ html{
 }
 
 body{
-	font-family: Tahoma, sans-serif;
-	letter-spacing: 0.02em;
-	line-height: 1.5em;
-	font-size: 1em;
+	font-family: Georgia, serif;
+	letter-spacing: 0em;
+	line-height: 1.7em;
+	font-size: 1.1em;
 	color: #292929;
 	/*min-height: 100vh;*/
 	background-color: black;
@@ -368,7 +368,7 @@ a:visited{
 
 #mobile-nav{
 	position: absolute;
-	top: -18em;
+	top: -19em;
 	left: 0px;
 	/*height: 100%*/
 	width: 100%;
