@@ -8,6 +8,7 @@ My first exposure to writing music was a game on the Playstation 1 called Music 
 I was just starting to dabble with the ukulele back then, knowing little beyond the absolute basics. Thanks to my friend's older brother who was a stellar piano player, I learnt some chords that didn't sound terrible in combination. However, a neat chord progression alone wouldn't drive these lyrics out of Sucksville. Plus, I’m poor at singing, which didn't help.
 
 At the time I thought it was the chords' fault, of course, and that I could replace them with better ones if I knew some music theory. Luckily, there are seemingly limitless resources for learning theory, which I understand now, would only get me so far.
+
 You know what actually would have helped? Learning an instrument well enough to compose on it, which I cleverly did not do. With this one neat trick I had created a stupidity feedback loop; Every time I’d pick up my ukulele, I’d eventually get tired of my own lack of skill and go learn some theory. If I knew more theory, I reasoned, the next time I tried to compose would be much more pleasant, right? Spoilers: no.
 
 ![alt text](/images/2012-09-12-how-to-write-a-blog.png "image hover description")

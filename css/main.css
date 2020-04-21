@@ -259,6 +259,15 @@ a:visited{
 	padding:0.5em 3em;
 }
 
+.post-text ul{
+	padding:0.5em 3em 0.5em 4em;
+	list-style:circle;
+}
+
+.post-text li{
+	padding-top: 0.5em;
+}
+
 .post-title small{
 	padding: 1.5em 0 1em 1em;
 	min-width: 120px;
@@ -470,6 +479,10 @@ a:visited{
 
 	.post-title small{
 		padding: 0;
+	}
+
+	.post-text ul{
+		padding:0.5em 1em 0.5em 2em;
 	}
 
 	.flex-right{
