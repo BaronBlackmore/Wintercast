@@ -174,10 +174,18 @@ label{
 	justify-content: center;
 }
 
+#mc_embed_signup div.mce_inline_error{
+	font-weight: normal;
+}
+
 .mc-field-group{
 	padding-bottom: 1em;
 	display: flex;
 	flex-direction: column;
+}
+
+.frontpage-content #mc_embed_signup{
+	color: white;
 }
 
 .snow{
