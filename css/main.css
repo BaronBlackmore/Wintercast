@@ -472,6 +472,10 @@ a:visited{
 		padding: 0;
 	}
 
+	.flex-right{
+		justify-content: flex-start;
+	}
+
 	.post-preview{
 		flex-direction: column;
 	}

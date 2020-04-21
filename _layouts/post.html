@@ -7,13 +7,16 @@ title: "none"
 	<!-- facebook -->
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}" />
-	<meta property="og:description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}" />
+	<meta property="og:description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}"/>
 	<meta property="og:image" content="http://www.wintersolacegame.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png" />
 
 	<!-- twitter -->
 	<meta name="twitter:description" content="{{content | strip_html | strip_newlines | truncate: 190  | capitalize }}">
 	<meta name="twitter:image" content="http://www.wintersolacegame.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 </head>
+
+<!-- for facebook to find a preview -->
+<img style="display: none;" src="/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 
 <div class="post-head center-col flex-all">
 	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
@@ -51,7 +54,7 @@ title: "none"
 				<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.previous.content | strip_html | truncate: 160 }}</p>
-					<a class="triangle-link" href="{{page.previous.url}}">►►►</a>
+					<a class="triangle-link" href="{{page.previous.url}}">▶▶▶</a>
 				</div>
 			</div>
 		</div>
@@ -64,7 +67,7 @@ title: "none"
 	    {% if page.next.url %}
 		
 		<div class="post-preview" style="flex-direction: column;">
-			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ►►►</h5></a>
+			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ▶▶▶</h5></a>
 			<div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div>
 
@@ -73,7 +76,7 @@ title: "none"
 				<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.next.content | strip_html | truncate: 160 }}</p>
-					<a class="triangle-link" href="{{page.next.url}}">►►►</a>
+					<a class="triangle-link" href="{{page.next.url}}">▶▶▶</a>
 				</div>
 			</div>
 		</div>
