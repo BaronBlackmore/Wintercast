@@ -116,7 +116,7 @@ p{
 
 small, .text_small {
 	font-size: 0.75em;
-	color: #8f96ae;
+	color: #8f909b;
 }
 
 a{
@@ -124,8 +124,16 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	opacity: 70%;
+}
+
 a:visited{
 	color: #d83f41;
+}
+
+img{
+	max-width: 100vw;
 }
 
 #whole-page{
@@ -360,7 +368,7 @@ label{
 }
 
 .post-list{
-	padding-bottom: 2em;
+	padding: 2em 0;
 }
 
 .post-list li{
@@ -596,12 +604,10 @@ label{
 
 	.snow{
 		height: 450px;
-		top: 40px;
 	}
 
 	.hero-front{
 		height: 450px;
-		top:40px;
 	}
 
 	.hero-front-image{
@@ -613,7 +619,7 @@ label{
 	}
 
 	.frontpage-content{
-		margin-top:400px;
+		margin-top:350px;
 	}
 
 
