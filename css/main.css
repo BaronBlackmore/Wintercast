@@ -283,7 +283,8 @@ label{
 
 .navbar a{
 	padding: 0 1em;
-	/*color: white;*/
+	align-self: center;
+	display: flex;
 }
 
 .navbar body{
@@ -291,7 +292,7 @@ label{
 }
 
 .navbar img{
-	height: 60px;
+	height: 36px;
 }
 
 .contact-info{
