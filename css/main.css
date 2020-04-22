@@ -57,7 +57,7 @@ body{
 	font-size: 1.1em;
 	color: #292929;
 	/*min-height: 100vh;*/
-	background-color: black;
+	background-color: #0d0f27;
 }
 
 /*snow keyframes*/
@@ -234,7 +234,7 @@ label{
 
 .hero-side{
 	flex: 1 1;
-	background-color: black;
+	background-color: #0d0f27;
 }
 
 .center-col{
