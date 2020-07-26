@@ -26,11 +26,12 @@ Content
 
 
 
-Title - The soundtrack
+Title - 
 
-MUSE - Bliss
-Susanne Sundfor - Kamikaze ?
-Susanne Sundfor - The Silicone Veil
-White Lies - Farewell to the fairground
-White Lies - Unfinished Business ?
-The Killers - Dustland fairytale
+investivating what goes into a japanese castle
+it's not usual for japanese houses to be very sparse.
+The Wintercast mansion used to be home to many many more than just the two who live there now. So they probably left some things.
+
+
+clothes and made from scraps
+making entire pieces of clothing out of rare pieces of fabric
