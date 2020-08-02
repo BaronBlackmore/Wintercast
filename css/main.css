@@ -334,8 +334,11 @@ label{
 }
 
 .team{
-	display: flex;
-	
+	display: flex;	
+}
+
+.team img{
+	height: 200px;
 }
 
 .post-body{
@@ -655,6 +658,10 @@ label{
 	.frontpage-content h5{
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.team{
+		flex-direction: column;	
 	}
 
 
