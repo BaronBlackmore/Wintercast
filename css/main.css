@@ -326,6 +326,16 @@ label{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	width: 50%;
+}
+
+.contact-info p{
+	padding: 0;
+}
+
+.team{
+	display: flex;
+	
 }
 
 .post-body{
@@ -546,6 +556,8 @@ label{
 .neighbour-posts h5{
 	padding: 0.5em 0 0.3em 0;
 }
+
+
 
 .foot{
 	padding:6em 0;
