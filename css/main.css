@@ -267,7 +267,7 @@ label{
 }
 
 .frontpage-content h5{
-	max-width: 740px
+	max-width: 740px;
 	margin: auto;
 	color: white;
 	padding: 6em 0 3em 0;
