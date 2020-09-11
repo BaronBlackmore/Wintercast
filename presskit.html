@@ -110,4 +110,69 @@ layout: default
 
 
 
-</div></div></div></div></div></div></div></div></body></html>
+</div></div>
+
+<hr>
+<h2 id="videos">Videos</h2>
+<a href=""><div class="uk-alert">download the trailer from dropbox</div></a>
+<div class="uk-responsive-width iframe-container">
+    <iframe src="/videos/trailer.mp4" allowfullscreen="" frameborder="0"></iframe>
+</div>
+
+<hr>
+<h2 id="images">Images</h2>
+<a href=""><div class="uk-alert">download all images from dropbox</div></a>
+
+<hr>
+<div class="uk-grid">
+    <div class="uk-width-medium-1-2">
+        <h2 id="credits">Credits</h2>
+        <p>
+            <strong>Sam Ballard</strong><br><a href="www.sunlightafterdark.com">Creator, Programmer, Artist</a>
+        </p>
+        <p>
+            <strong>Georgia Iacovou</strong><br><a href="https://twitter.com/Geoiac">Writer</a>
+        </p>
+        
+    </div>
+    <div class="uk-width-medium-1-2">
+        <h2 id="contact">Contact</h2>
+        <p>
+            <strong>Inquiries</strong><br><a href="mailto:sam@wintercastgame.com">sam@wintercastgame.com</a>
+        </p>
+        <p>
+            <strong>Twitter</strong><br><a href="https://twitter.com/BaronBlackmore">https://twitter.com/BaronBlackmore</a>
+        </p>
+        <p>
+            <strong>Web</strong><br><a href="http://www.sunlightafterdark.com">http://www.sunlightafterdark.com</a>
+        </p>
+    </div>
+</div>
+<hr>
+
+<p>
+    <a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="https://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="http://dopresskit.com/#thanks">these fine folks</a>
+</p>
+
+
+
+
+
+</div></div></div></div></div></div>
+
+<script type="text/javascript" src="/presskit/jquery_002.js"></script>
+<script type="text/javascript" src="/presskit/jquery.js"></script>
+<script type="text/javascript" src="/presskit/masonry.js"></script>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        var container = $('.images');
+        container.imagesLoaded( function() {
+            container.masonry({
+                itemSelector: '.uk-width-medium-1-2',
+            });
+        });
+    });
+</script>
+
+
+</body></html>
